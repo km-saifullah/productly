@@ -1,0 +1,62 @@
+tailwind.config = {
+  theme: {
+    extend: {
+      colors: {
+        borderColor: "#BCD0E5",
+        textColor: "#173A56",
+        white: "#fff",
+        btnBG: "#FF9900",
+        navLinkColor: "#2F281E",
+        pColor: "#544837",
+      },
+      maxWidth: {
+        container: "1110px",
+      },
+      spacing: {
+        3: "3px",
+        5: "5px",
+        10: "10px",
+        11: "11px",
+        14: "14px",
+        22: "22px",
+        25: "25px",
+        28: "28px",
+        30: "30px",
+        34: "34px",
+        35: "35px",
+        40: "40px",
+        45: "45px",
+        50: "50px",
+        60: "60px",
+        100: "100px",
+        110: "110px",
+        240: "240px",
+        365: "365px",
+        458: "458px",
+        486: "486px",
+        500: "500px",
+        518: "518px",
+        521: "521px",
+        535: "535px",
+        539: "539px",
+        600: "600px",
+      },
+      fontFamily: {
+        poppins: "'Poppins', sans-serif",
+      },
+      fontSize: {
+        44: "44px",
+        22: "22px",
+      },
+      lineHeight: {
+        54: "54px",
+        26: "26px",
+        28: "28px",
+      },
+      borderRadius: {
+        19: "19px",
+        14: "14px",
+      },
+    },
+  },
+};
